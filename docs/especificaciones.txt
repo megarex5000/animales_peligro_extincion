@@ -1,0 +1,3 @@
+ÑProyecto: Animales en peligro de extinción en Bolivia
+Especialización: Gestión de datos
+Aplicación: Consola C++ con menús y lectura de CSV
