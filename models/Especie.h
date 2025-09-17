@@ -2,6 +2,7 @@
 #define ESPECIE_H
 
 #include <string>
+#include <iostream>
 
 class Especie {
 public:
