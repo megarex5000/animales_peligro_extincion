@@ -1,7 +1,7 @@
 #include "Especie.h"
 #include <iostream>
 
-void Especie::mostrar() {  // Definición de la función
+void Especie::mostrar() {
     std::cout << id << " | "
               << nombre << " | "
               << categoria << " | "

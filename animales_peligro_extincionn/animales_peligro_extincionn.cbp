@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add option="-std=c++11" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -33,6 +34,8 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="main.cpp" />
+		<Unit filename="..\models\Especie.cpp" />
+		<Unit filename="..\src\main.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />
