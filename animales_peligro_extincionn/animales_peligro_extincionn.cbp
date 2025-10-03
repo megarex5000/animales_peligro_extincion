@@ -8,12 +8,12 @@
 		<Build>
 			<Target title="Debug">
 				<Option output="bin\Debug\animales_peligro_extincionn" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin Debug" />
 				<Option object_output="obj\Debug\" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
-					<Add option="-std=c++11" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -33,7 +33,6 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="main.cpp" />
 		<Unit filename="..\models\Especie.cpp" />
 		<Unit filename="..\src\main.cpp" />
 		<Extensions>

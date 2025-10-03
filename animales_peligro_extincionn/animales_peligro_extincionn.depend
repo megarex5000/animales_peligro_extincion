@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1758750949 source:c:\users\hp\documents\github\animales_peligro_extincion\src\main.cpp
+1759359521 source:c:\users\hp\documents\github\animales_peligro_extincion\src\main.cpp
 	<iostream>
 	<fstream>
 	<sstream>
@@ -7,13 +7,14 @@
 	<string>
 	<iomanip>
 	<cstdlib>
-	"Especie.h"
+	<algorithm>
+	"../models/Especie.h"
 
-1758119153 c:\users\hp\documents\github\animales_peligro_extincion\models\especie.h
+1759358199 c:\users\hp\documents\github\animales_peligro_extincion\models\especie.h
 	<string>
 	<iostream>
 
-1758750404 source:c:\users\hp\documents\github\animales_peligro_extincion\models\especie.cpp
+1759349575 source:c:\users\hp\documents\github\animales_peligro_extincion\models\especie.cpp
 	"Especie.h"
 	<iostream>
 

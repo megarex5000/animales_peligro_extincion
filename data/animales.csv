@@ -1,6 +1,102 @@
-ID;Nombre;Categoria;Habitat;Población
-1;Jaguar;Mamífero;Bosque húmedo;1500
+ID;Nombre;Categoria;Habitat;Poblacion
+1;Jaguar;Mamifero;Bosque humedo;1500
 2;Paraba Azul;Ave;Llanuras y sabanas;350
-3;Armadillo Gigante;Mamífero;Bosque seco;200
-4;Tití de Beni;Mamífero;Bosque amazónico;1000
-5;Caimán Negro;Reptil;Ríos y lagunas;800
+3;Armadillo Gigante;Mamifero;Bosque seco;200
+4;Titi de Beni;Mamifero;Bosque amazonico;1000
+5;Caiman Negro;Reptil;Rios y lagunas;800
+6;Mateocopa;Reptil;Huanuni;1
+7;Oso Andino;Mamifero;Montanas;300
+8;Condor Andino;Ave;Altiplano;400
+9;Puma;Mamifero;Bosque;900
+10;Culebra Lora;Reptil;Selva;150
+11;Delfin de Rio;Mamifero;Rios;250
+12;Tucan;Ave;Selva;500
+13;Tapir;Mamifero;Bosque;600
+14;Guacamayo Rojo;Ave;Selva;200
+15;Caiman Yacare;Reptil;Pantanos;1200
+16;Loro;Ave;Selva;350
+17;Capibara;Mamifero;Rios;1500
+18;Mono Aullador;Mamifero;Bosque;450
+19;Gato Andino;Mamifero;Montanas;100
+20;Carpincho;Mamifero;Humedales;2000
+21;Cisne de Cuello Negro;Ave;Lagos;180
+22;Ibis Escarlata;Ave;Pantanos;300
+23;Cocodrilo;Reptil;Rios;400
+24;Tortuga Gigante;Reptil;Islas;50
+25;Zorro Andino;Mamifero;Altiplano;500
+26;Mono Capuchino;Mamifero;Selva;700
+27;Aguila;Ave;Montanas;250
+28;Pecari;Mamifero;Bosque;600
+29;Cotorra;Ave;Bosque;450
+30;Boa;Reptil;Selva;200
+31;Tinamú;Ave;Bosque;300
+32;Tapaculo;Ave;Montanas;180
+33;Lapa;Mamifero;Selva;350
+34;Caracol Gigante;Molusco;Rios;900
+35;Guanaco;Mamifero;Altiplano;400
+36;Vizcacha;Mamifero;Altiplano;600
+37;Agouti;Mamifero;Bosque;700
+38;Mariposa Morpho;Insecto;Selva;500
+39;Guayara;Mamifero;Bosque;350
+40;Lechuza;Ave;Bosque;200
+41;Pato Real;Ave;Lagos;2000
+42;Chiguiro;Mamifero;Humedales;180
+43;Oropendola;Ave;Selva;300
+44;Caracol de Agua;Molusco;Rios;250
+45;Nutria;Mamifero;Bosque;120
+46;Bataraz;Ave;Selva;220
+47;Tucaneta;Ave;Altiplano;400
+48;Iguana;Reptil;Montanas;90
+49;Monito del Monte;Mamifero;Bosque;50
+50;Caracol Andino;Molusco;Selva;300
+51;Suri;Ave;Bosque;150
+52;Ocelote;Mamifero;Bosque;180
+53;Tucan Amarillo;Ave;Pantanos;250
+54;Serpiente Coral;Reptil;Bosque;350
+55;Mono Titi;Mamifero;Bosque;220
+56;Zorrino;Mamifero;Montanas;150
+57;Pajaro Carpintero;Ave;Bosque;100
+58;Mono Araña;Mamifero;Bosque;300
+59;Llama;Mamifero;Montanas;450
+60;Arara;Ave;Bosque;200
+61;Carpintero Negro;Ave;Bosque;150
+62;Zorzal;Ave;Pantanos;400
+63;Pecarí de collar;Mamifero;Rios;500
+64;Venado;Mamifero;Bosque;350
+65;Rana Arborícola;Amfibio;Bosque;200
+66;Pecarí Chaco;Mamifero;Pantanos;250
+67;Guanáco de Altura;Mamifero;Montanas;300
+68;Surucuá;Ave;Bosque;150
+69;Cotorra Verde;Ave;Montanas;180
+70;Mono Saimiri;Mamifero;Selva;500
+71;Tapir Amazónico;Mamifero;Bosque;250
+72;Mono Loro;Mamifero;Bosque;200
+73;Oso Hormiguero;Mamifero;Selva;350
+74;Gavilán;Ave;Bosque;300
+75;Gato Colocolo;Mamifero;Bosque;400
+76;Pecarí Pintado;Mamifero;Bosque;220
+77;Guanaco Chico;Mamifero;Bosque;180
+78;Loro Cabeza Azul;Ave;Pantanos;500
+79;Pato Criollo;Ave;Bosque;150
+80;Lagarto Andino;Reptil;Bosque;200
+81;Tortuga de Río;Reptil;Bosque;350
+82;Mono Barrigón;Mamifero;Bosque;100
+83;Lagarto Gigante;Reptil;Selva;300
+84;Tortuga Terrestre;Reptil;Bosque;150
+85;Puma Andino;Mamifero;Bosque;400
+86;Culebra Rey;Reptil;Pantanos;500
+87;Arara Azul;Ave;Bosque;180
+88;Mono Capuchino Blanco;Mamifero;Bosque;250
+89;Cóndor Real;Ave;Bosque;200
+90;Zorro Culpeo;Mamifero;Bosque;300
+91;Guacamayo Verde;Ave;Bosque;400
+92;Guacamayo Azul;Ave;Bosque;150
+93;Boa Esmeralda;Reptil;Pantanos;500
+94;Caracol Andino Gigante;Molusco;Bosque;200
+95;Mono Ardilla;Mamifero;Bosque;300
+96;Lobo Andino;Mamifero;Bosque;150
+97;Cisne Real;Ave;Bosque;200
+98;Iguana Verde;Reptil;Bosque;300
+99;Mono Ardilla;Mamifero;Bosque;400
+100;Oso Andino;Mamifero;Bosque;150
+;;;;

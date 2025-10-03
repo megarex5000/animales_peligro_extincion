@@ -12,7 +12,7 @@ public:
     std::string habitat;
     int poblacion;
 
-    void mostrar();
+    void mostrar(); // Sin const para compatibilidad
 };
 
 #endif

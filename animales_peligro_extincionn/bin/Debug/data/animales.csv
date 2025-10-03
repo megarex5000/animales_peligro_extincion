@@ -1,6 +1,8 @@
 ID;Nombre;Categoria;Habitat;Población
-1;Jaguar;Mamífero;Bosque húmedo;1500
+1;Jaguar;Mamifero;Bosque humedo;1500
 2;Paraba Azul;Ave;Llanuras y sabanas;350
-3;Armadillo Gigante;Mamífero;Bosque seco;200
-4;Tití de Beni;Mamífero;Bosque amazónico;1000
-5;Caimán Negro;Reptil;Ríos y lagunas;800
+3;Armadillo Gigante;Mamifero;Bosque seco;200
+4;Titi de Beni;Mamifero;Bosque amazónico;1000
+5;Caiman Negro;Reptil;Ríos y lagunas;800
+6;mateocopa;Reptil;huanuni;1
+
