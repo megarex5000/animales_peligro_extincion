@@ -3,16 +3,18 @@
 
 #include <string>
 #include <iostream>
+using namespace std;
 
 class Especie {
 public:
     int id;
-    std::string nombre;
-    std::string categoria;
-    std::string habitat;
+    string nombre;
+    string categoria;
+    string habitat;
     int poblacion;
 
-    void mostrar(); // Sin const para compatibilidad
+    Especie();
+    void mostrar();
 };
 
 #endif

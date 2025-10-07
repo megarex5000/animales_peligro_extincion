@@ -1,4 +1,4 @@
-ID;Nombre;Categoria;Habitat;Poblacion
+id;nombre;categoria;habitat;poblacion
 1;Jaguar;Mamifero;Bosque humedo;1500
 2;Paraba Azul;Ave;Llanuras y sabanas;350
 3;Armadillo Gigante;Mamifero;Bosque seco;200
@@ -99,4 +99,3 @@ ID;Nombre;Categoria;Habitat;Poblacion
 98;Iguana Verde;Reptil;Bosque;300
 99;Mono Ardilla;Mamifero;Bosque;400
 100;Oso Andino;Mamifero;Bosque;150
-;;;;
