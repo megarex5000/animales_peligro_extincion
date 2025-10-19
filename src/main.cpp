@@ -45,12 +45,12 @@ void mostrarEstadisticas(vector<Especie>& animales) {
 
     double promedio = (double)totalPoblacion / animales.size();
 
-    cout << "\n--- Estadísticas Generales ---\n";
+    cout << "\n--- Estadisticas Generales ---\n";
     cout << "Total especies: " << animales.size() << endl;
-    cout << "Población total: " << totalPoblacion << endl;
-    cout << "Población promedio: " << promedio << endl;
-    cout << "Máxima población: " << maxPoblacion << endl;
-    cout << "Mínima población: " << minPoblacion << endl;
+    cout << "Poblacion total: " << totalPoblacion << endl;
+    cout << "Poblacion promedio: " << promedio << endl;
+    cout << "Maxima poblacion: " << maxPoblacion << endl;
+    cout << "Minima poblacion: " << minPoblacion << endl;
 }
 
 void porcentajePorCategoria(vector<Especie>& animales) {
@@ -66,8 +66,8 @@ void porcentajePorCategoria(vector<Especie>& animales) {
         else otros++;
     }
 
-    cout << "\n--- Porcentaje por Categoría ---\n";
-    cout << "Mamíferos: " << (mamiferos * 100.0 / total) << "%\n";
+    cout << "\n--- Porcentaje por Categoria ---\n";
+    cout << "Mamiferos: " << (mamiferos * 100.0 / total) << "%\n";
     cout << "Aves: " << (aves * 100.0 / total) << "%\n";
     cout << "Reptiles: " << (reptiles * 100.0 / total) << "%\n";
     cout << "Otros: " << (otros * 100.0 / total) << "%\n";
@@ -79,12 +79,12 @@ void menuGraficacion() {
 }
 
 void menuANOVA() {
-    cout << "\n--- Menú ANOVA ---\n";
+    cout << "\n--- Menu ANOVA ---\n";
     cout << "Funcionalidad pendiente.\n";
 }
 
 void agruparPorCategoria(vector<Especie>& animales) {
-    cout << "\n--- Agrupación por Categoría ---\n";
+    cout << "\n--- Agrupacion por Categoria ---\n";
     string categorias[] = {"mamifero", "ave", "reptil", "otro"};
 
     for (int c = 0; c < 4; c++) {
@@ -101,7 +101,7 @@ void agruparPorCategoria(vector<Especie>& animales) {
                 encontrado = true;
             }
         }
-        if (!encontrado) cout << "No hay animales en esta categoría.\n";
+        if (!encontrado) cout << "No hay animales en esta categoria.\n";
     }
 }
 
@@ -115,7 +115,7 @@ void ordenarPorPoblacion(vector<Especie>& animales) {
             }
         }
     }
-    cout << "\nLista ordenada por población descendente:\n";
+    cout << "\nLista ordenada por poblacion descendente:\n";
     cout << left << setw(5) << "ID" << setw(20) << "Nombre" << setw(15) << "Categoria" << setw(20) << "Habitat" << setw(10) << "Poblacion" << endl;
     for (size_t i = 0; i < animales.size(); i++) {
         cout << left << setw(5) << animales[i].id
@@ -174,7 +174,7 @@ void mostrarCausasExtincion(vector<Especie>& animales) {
     cout << left << setw(20) << "Nombre"
          << setw(15) << "Categoria"
          << setw(20) << "Habitat"
-         << setw(30) << "Causa de extinción" << endl;
+         << setw(30) << "Causa de extincion" << endl;
 
     for (size_t i = 0; i < animales.size(); i++) {
         cout << left << setw(20) << animales[i].nombre
@@ -236,16 +236,16 @@ int main() {
         cout << "\n--- Menú Principal ---\n";
         cout << "1. Listar todos los animales\n";
         cout << "2. Buscar animal por nombre\n";
-        cout << "3. Estadísticas generales\n";
-        cout << "4. Porcentaje por categoría\n";
-        cout << "5. Graficación\n";
+        cout << "3. Estadisticas generales\n";
+        cout << "4. Porcentaje por categoria\n";
+        cout << "5. Graficacion\n";
         cout << "6. ANOVA\n";
-        cout << "7. Agrupar por categoría\n";
-        cout << "8. Ordenar por población\n";
-        cout << "9. Buscar por hábitat\n";
-        cout << "10. Causas de extinción\n";
+        cout << "7. Agrupar por categoria\n";
+        cout << "8. Ordenar por poblacion\n";
+        cout << "9. Buscar por habitat\n";
+        cout << "10. Causas de extincion\n";
         cout << "0. Salir\n";
-        cout << "Opción: ";
+        cout << "Opcion: ";
         cin >> opcion;
 
         switch (opcion) {
@@ -260,9 +260,7 @@ int main() {
             case 9: buscarPorHabitat(animales); break;
             case 10: mostrarCausasExtincion(animales); break;
         }
-
     } while (opcion != 0);
-
     db.cerrarDB();
     return 0;
 }
